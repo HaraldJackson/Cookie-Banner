@@ -1,0 +1,36 @@
+#cookiebanner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #222;
+  color: white;
+  padding: 15px;
+  display: none; /* Default hidden, vises når JS aktiveres */
+  text-align: center;
+  z-index: 9999; /* Sikrer, at banneret vises over andet indhold */
+}
+
+.c-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.c-message {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.c-button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.c-button-secondary {
+  background: #f44336;
+}
